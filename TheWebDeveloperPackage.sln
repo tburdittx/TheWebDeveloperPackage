@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{254B8811-DD6B-4B39-B809-5C4799D0D7FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{897A769C-F6E7-44C5-899E-68EC781B69EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{1C0EA625-5594-4085-ADA0-9ADB5C2F1A44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Businesslogic", "Businesslogic", "{D40F4F14-2E30-41F0-BF94-95DEABEF4368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B676BAB1-8BB7-4839-BF03-E89FBAFFBDF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{E0D1B8B4-3E60-4801-9977-C6C1F62CE3FB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebDevPackage.DB", "Database\WebDevPackage.DB\WebDevPackage.DB.sqlproj", "{4C450ABB-763A-4A0D-BA7F-245F6EE30804}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C450ABB-763A-4A0D-BA7F-245F6EE30804} = {254B8811-DD6B-4B39-B809-5C4799D0D7FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56EBF41B-0135-4479-BA4E-2F984E44F556}
